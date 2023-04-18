@@ -25,9 +25,8 @@ For Chinese scenarios, our CLIP is pre-trained on Chinese corpus and image pairs
 
 single step to change the image object by object
 
-<img src="https://github.com/DefengXie/Edit_Everything/blob/main/image/图片5.png">
 
-![](./Image/图片5.png "Example 1")
+![](./image/图片5.png "Example 1")
 
 ![](./Image/图片6.png "Example 2")
 
