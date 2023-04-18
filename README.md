@@ -4,6 +4,7 @@
 [Defeng Xie](xiedefeng@oppo.com), [Ruichen Wang](wangruichen@oppo.com),[Jian Ma](majian2@oppo.com),[Chen Chen](chenchen4@oppo.com),[Haonan Lu](luhaonan@oppo.com),[Dong Yang](dongyang3-c@my.cityu.edu.hk),[Fobo Shi](foboshi99@gmail.com),[Xiaodong Lin](lin@business.rutgers.edu)   
 
 
+
 We propose a text-guided generative system without any finetuning (zero-shot). We achieve a great performance for image editing by the implement of [Segment Anything Model](https://github.com/facebookresearch/segment-anything)+[CLIP](https://github.com/openai/CLIP)+[Stable Diffusion](https://github.com/Stability-AI/stablediffusion). This work firstly provides an efficient solution for [Chinese scenarios]. 
 
 *The related code and **technical report** are coming soon*
@@ -25,32 +26,31 @@ For Chinese scenarios, our CLIP is pre-trained on Chinese corpus and image pairs
 
 single step to change the image object by object
 
-
 ![](./image/图片5.png "Example 1")
 
-![](./Image/图片6.png "Example 2")
+![](./image/图片6.png "Example 2")
 
-![](./Image/图片9.png "Example 3")
+![](./image/图片9.png "Example 3")
 
-![](./Image/图片2.png "Example 4")
+![](./image/图片2.png "Example 4")
 
-![](./Image/图片3.png "Example 5")
+![](./image/图片3.png "Example 5")
 
-![](./Image/图片4.png "Example 6")
+![](./image/图片4.png "Example 6")
 
-![](./Image/图片7.png "Example 7")
+![](./image/图片7.png "Example 7")
 
-![](./Image/图片8.png "Example 8")
+![](./image/图片8.png "Example 8")
 
-![](./Image/图片1.png "Example 9")
+![](./image/图片1.png "Example 9")
 
 
 
 multi step to generate the image object by object
 
-![](./Image/连续3.png "Multi step generation Example 1")
-![](./Image/连续2.png "Multi step generation Example 2")
-![](./Image/连续1.png "Multi step generation Example 3")
+![](./image/连续3.png "Multi step generation Example 1")
+![](./image/连续2.png "Multi step generation Example 2")
+![](./image/连续1.png "Multi step generation Example 3")
 
 
 
