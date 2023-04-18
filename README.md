@@ -9,7 +9,7 @@ We propose a text-guided generative system without any finetuning (zero-shot). W
 
 *The related code and **technical report** are coming soon*
 
-![](./Image/first.png)
+![](./image/first.png)
 
 **Approach**
 
