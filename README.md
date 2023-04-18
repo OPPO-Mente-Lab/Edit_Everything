@@ -27,13 +27,13 @@ single step to change the image object by object
 
 ![](Image/图片5.png "Example 1")
 
-![](Image/图片6.png "Example 2")
+![](./Image/图片6.png "Example 2")
 
-![](Image/图片9.png "Example 3")
+![](./Image/图片9.png "Example 3")
 
-![](Image/图片2.png "Example 4")
+![](./Image/图片2.png "Example 4")
 
-![](Image/图片3.png "Example 5")
+![](./Image/图片3.png "Example 5")
 
 ![](Image/图片4.png "Example 6")
 
