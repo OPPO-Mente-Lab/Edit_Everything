@@ -3,7 +3,7 @@
 
 [Defeng Xie](xiedefeng@oppo.com), [Ruichen Wang](wangruichen@oppo.com),[Jian Ma](majian2@oppo.com),[Chen Chen](chenchen4@oppo.com),[Haonan Lu](luhaonan@oppo.com),[Dong Yang](dongyang3-c@my.cityu.edu.hk),[Fobo Shi](foboshi99@gmail.com),[Xiaodong Lin](lin@business.rutgers.edu)   
 
-
+> "While drawing I discover what I realy want to say" --Dario Fo
 
 We propose a text-guided generative system without any finetuning (zero-shot). We achieve a great performance for image editing by the implement of [Segment Anything Model](https://github.com/facebookresearch/segment-anything)+[CLIP](https://github.com/openai/CLIP)+[Stable Diffusion](https://github.com/Stability-AI/stablediffusion). This work firstly provides an efficient solution for [Chinese scenarios]. 
 
@@ -18,8 +18,6 @@ The text-guided generative system consists of [Segment Anything Model (SAM)](htt
 For Chinese scenarios, our CLIP is pre-trained on Chinese corpus and image pairs. And Stable Diffusion is also pre-trained on Chinese corpus. So our work first achieves the text-guided generative system in Chinese scenarios. For English scenarios, we just implement open-source [CLIP](https://github.com/openai/CLIP) and [Stable Diffusion](https://github.com/Stability-AI/stablediffusion).
 
 *Note:  In this demo, we use [Taiyi-CLIP-Roberta-large-326M-Chinese](Taiyi-CLIP-Roberta-large-326M-Chinese) and  [Taiyi-Stable-Diffusion-1B-Chinese-v0.1](https://huggingface.co/IDEA-CCNL/Taiyi-Stable-Diffusion-1B-Chinese-v0.1). Thus real examples of this demo are slightly different from those shown in the README*.
-
-
 
 
 **More Example**
@@ -49,8 +47,11 @@ single step to change the image object by object
 multi step to generate the image object by object
 
 ![](./image/连续3.png "Multi step generation Example 1")
+
 ![](./image/连续2.png "Multi step generation Example 2")
+
 ![](./image/连续1.png "Multi step generation Example 3")
+
 
 
 
