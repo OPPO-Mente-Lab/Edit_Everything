@@ -1,15 +1,16 @@
 # Edit Everything: Text-Guided Generative System for Images Editing
-**OPPO Research Institute**
+
 
 [Defeng Xie](xiedefeng@oppo.com), [Ruichen Wang](wangruichen@oppo.com),[Jian Ma](majian2@oppo.com),[Chen Chen](chenchen4@oppo.com),[Haonan Lu](luhaonan@oppo.com),[Dong Yang](dongyang3-c@my.cityu.edu.hk),[Fobo Shi](foboshi99@gmail.com),[Xiaodong Lin](lin@business.rutgers.edu)   
+**OPPO Research Institute**
 
-> "While drawing I discover what I realy want to say" --Dario Fo
+> <font size=4.8> "While drawing I discover what I realy want to say" --Dario Fo </font>
 
 We propose a text-guided generative system without any finetuning (zero-shot). We achieve a great performance for image editing by the implement of [Segment Anything Model](https://github.com/facebookresearch/segment-anything)+[CLIP](https://github.com/openai/CLIP)+[Stable Diffusion](https://github.com/Stability-AI/stablediffusion). This work firstly provides an efficient solution for Chinese scenarios. 
 
 *The related code and **technical report** are coming soon*
 
-![](./image/first.png)
+![](./assets/幻灯片1.PNG)
 
 **Approach**
 
@@ -22,35 +23,35 @@ For Chinese scenarios, our CLIP is pre-trained on Chinese corpus and image pairs
 
 **More Example**
 
-single step to change the image object by object
+One object can be edited at a time
 
-![](./image/图片5.png "Example 1")
+![](./assets/幻灯片5.PNG)
 
-![](./image/图片6.png "Example 2")
+![](./assets/幻灯片6.PNG)
 
-![](./image/图片9.png "Example 3")
+![](./assets/幻灯片9.PNG)
 
-![](./image/图片2.png "Example 4")
+![](./assets/幻灯片2.PNG)
 
-![](./image/图片3.png "Example 5")
+![](./assets/幻灯片3.PNG)
 
-![](./image/图片4.png "Example 6")
+![](./assets/幻灯片4.PNG)
 
-![](./image/图片7.png "Example 7")
+![](./assets/幻灯片7.PNG)
 
-![](./image/图片8.png "Example 8")
-
-![](./image/图片1.png "Example 9")
+![](./assets/幻灯片8.PNG)
 
 
+Multiple objects of an image are edited step by step
 
-multi step to generate the image object by object
+![](./assets/多张3.png)
 
-![](./image/连续3.png "Multi step generation Example 1")
+![](./assets/多张.png)
 
-![](./image/连续2.png "Multi step generation Example 2")
+![](./assets/多张2.png)
 
-![](./image/连续1.png "Multi step generation Example 3")
+
+
 
 
 
