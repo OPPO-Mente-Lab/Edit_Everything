@@ -1,4 +1,4 @@
-# Edit Everything: Text-Guided Generative System for Images Editing
+# Edit Everything: A Text-Guided Generative System for Images Editing
 
 
 [Defeng Xie](xiedefeng@oppo.com), [Ruichen Wang](wangruichen@oppo.com),[Jian Ma](majian2@oppo.com),[Chen Chen](chenchen4@oppo.com),[Haonan Lu](luhaonan@oppo.com),[Dong Yang](dongyang3-c@my.cityu.edu.hk),[Fobo Shi](foboshi99@gmail.com),[Xiaodong Lin](lin@business.rutgers.edu)   
@@ -48,8 +48,10 @@ For Chinese scenarios, our CLIP is pre-trained on Chinese corpus and image pairs
 **Getting Started**
 
 PyTorch 1.10.1 (or later) and python 3.8 are recommended. Some python packages are needed and you can find the install instruct in demo.ipynb
-
-For CLIP, download the checkpoint of [Taiyi-CLIP-Roberta-large-326M-Chinese](https://huggingface.co/IDEA-CCNL/Taiyi-CLIP-Roberta-large-326M-Chinese) and ViT-L-14 in [CLIP](https://github.com/openai/CLIP),and replace the checkpoint path in clip_wrapper.py.
+```
+pip install -r requirements.txt
+```
+For CLIP, download the checkpoint of [Taiyi-CLIP-Roberta-large-326M-Chinese](https://huggingface.co/IDEA-CCNL/Taiyi-CLIP-Roberta-large-326M-Chinese) and [clip-vit-large-patch14](https://huggingface.co/openai/clip-vit-large-patch14/tree/main) in [CLIP](https://github.com/openai/CLIP),and replace the checkpoint path in clip_wrapper.py.
 For SAM, download the checkpoint of [vit_l](https://github.com/facebookresearch/segment-anything) and replace the checkpoint path in segmentanything_wrapper.py.
 for SD, download the checkpoint of [stable-diffusion-inpainting](https://huggingface.co/runwayml/stable-diffusion-inpainting) and replace the checkpoint path in stablediffusion_wrapper.py. 
 Final, see the demo.ipynb to use each module.
