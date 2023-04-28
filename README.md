@@ -47,7 +47,7 @@ For Chinese scenarios, our CLIP is pre-trained on Chinese corpus and image pairs
 
 **Getting Started**
 
-PyTorch 1.10.1 (or later) and python 3.8 are recommended. Some python packages are needed and you can find the install instruct in demo.ipynb
+PyTorch 1.10.1 (or later) and python 3.8 are recommended. Some python packages are needed and can be installed by
 ```
 pip install -r requirements.txt
 ```
